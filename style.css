@@ -1,0 +1,91 @@
+ body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 13px 40px;
+}
+
+#name{
+    font-size: 45px;
+    border-top: 3px solid black;
+}
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+#role{
+    color: darkslategray;
+    font-size: 30px;
+}
+
+.heading{
+    color: teal;
+    margin-top: 50px;
+}
+
+a{
+    color: darkslategray
+}
+.date{
+    font-size: 14px;
+    color: dimgray;
+}
+
+.left_side{
+    float: left;
+    width: 60%;
+    margin-right: 35px;
+}
+
+aside{
+    padding-top: 8px;
+}
+input[type = "text"], input[type = "email"], textarea{
+    background-color: rgba(255, 255, 255, 0.938);
+    color: black;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+#head{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-decoration: black;
+}
+label{
+    font-size: 1em;
+    margin-left: 5px;
+}
+.container {
+    padding: 10px 10px;
+    background: #e3f2fd;
+    border-radius:12px;
+}
+input[type = "submit"]{
+    background: #8dc4f1;
+    color:#00000000;
+    padding: 10px 60px;
+    transition: all ease-in-out 0.1s;
+    position: relative;
+    display: inline-block;
+    border-radius: 4px;
+    background-image: url(https://image.flaticon.com/icons/svg/309/309395.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.button{
+    text-align: center;
+}
+input[type = "submit"]:hover {
+    background: #2196f3;
+    background-image: url(https://image.flaticon.com/icons/svg/71/71746.svg);
+    /* background-image: url(https://image.flaticon.com/icons/svg/309/309395.svg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+}
